@@ -46,11 +46,11 @@ public class VirtualCasino {
 		System.out.println("");
 		if(c*p <= 52)
 		{
-			while(count <= 4)
+			while(count <= p)
 			{
 				System.out.print("Person "+count+" ");
 				
-				for(int i=0;i<4;i++)
+				for(int i=0;i<c;i++)
 				{
 					System.out.print(Shuffled[count1]+" ");
 					count1++;
